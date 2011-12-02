@@ -27,6 +27,11 @@ Use in rails generators
       end
     end
 
+Use in bin output
+
+    STDOUT.puts VkillGemsMethods::STD::Display.new(
+                  :header => :error, :text => 123, :color => :red, :rjust_integer => 10
+                ).output
 
 ##Copyright
 

@@ -7,6 +7,7 @@ require "vkill_gems_methods/version"
 
 require "vkill_gems_methods/active_record/base"
 require "vkill_gems_methods/rails/generators/base"
+require "vkill_gems_methods/std"
 
 module VkillGemsMethods
 end
