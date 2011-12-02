@@ -10,8 +10,8 @@ module VkillGemsMethods
 
       def initialize(*options, &block)
         options = options.extract_options!
-        header = options.delete(:header) || "header"
-        text = options.delete(:text) || "text"
+        header = options.delete(:header) || "info"
+        text = options.delete(:text) || ""
         color = options.delete(:color) || 'green'
         rjust_integer = options.delete(:rjust_integer) || 12
 
